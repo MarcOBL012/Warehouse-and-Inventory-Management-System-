@@ -1,4 +1,4 @@
-# Warehouse and Inventory Management System (SERCOPLUS) 📦
+# Warehouse and Inventory Management System
 
 ![Python](https://img.shields.io/badge/Python-3.13-blue.svg)
 ![CustomTkinter](https://img.shields.io/badge/GUI-CustomTkinter-darkgreen.svg)
@@ -41,8 +41,9 @@ A 100% offline desktop application designed for advanced inventory control using
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/gestion-almacen-sercoplus.git
-   cd gestion-almacen-sercoplus
+   git clone https://github.com/your-username/Warehouse-and-Inventory-Management-System
+   cd Warehouse-and-Inventory-Management-System
+
    ```
 2. Install the required dependencies:
    ```bash
@@ -66,9 +67,3 @@ pip install pyinstaller
 pyinstaller --noconfirm --onefile --windowed --collect-all customtkinter --name "Gestion_Almacenes_SERCOPLUS" app.py
 ```
 > **Note:** The `Gestion_Almacenes_SERCOPLUS.exe` file will be generated in the `dist` folder. For the program to work, ensure you always place the `inventario.db` file in the same folder as the `.exe`.
-
-## 📈 Real Data Format (CSV)
-The system includes templates and the `import_csv.py` script to load massive transaction data. It supports the operation codes from **SUNAT's Table 12** (01: Sale, 02: Purchase, 11: Transfer, 16: Initial Balance, etc.).
-
----
-*Developed with ❤️ for intelligent and efficient hardware management at SERCOPLUS.*
