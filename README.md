@@ -58,12 +58,3 @@ A 100% offline desktop application designed for advanced inventory control using
    python app.py
    ```
 
-## 📦 Compiling to Executable (Production Mode)
-
-If you wish to create a single `.exe` file to distribute it to other Windows computers without requiring them to install Python, use PyInstaller:
-
-```bash
-pip install pyinstaller
-pyinstaller --noconfirm --onefile --windowed --collect-all customtkinter --name "Gestion_Almacenes_SERCOPLUS" app.py
-```
-> **Note:** The `Gestion_Almacenes_SERCOPLUS.exe` file will be generated in the `dist` folder. For the program to work, ensure you always place the `inventario.db` file in the same folder as the `.exe`.
