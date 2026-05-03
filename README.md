@@ -57,4 +57,7 @@ A 100% offline desktop application designed for advanced inventory control using
    ```bash
    python app.py
    ```
+## 📬 Contact
+If you use or extend this project, please add a note in the README or contact:
 
+**Marco Obispo** — marco.obispo.l@uni.pe - Universidad Nacional de Ingeniería (UNI)
